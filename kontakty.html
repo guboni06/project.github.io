@@ -1,0 +1,66 @@
+<!DOCTYPE html> 
+<html lang="ru">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт о бабочках</title>
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <nav class="nav">
+                <div class="logo"><a href="index.html" style="text-decoration: none; color: white;"><span class="pink">САЙТ</span> О БАБОЧКАХ</a></div>
+                <div class="nav-links">
+                    <a href="uslugi.html">УСЛУГИ</a>
+                    <a href="onas.html">О НАС</a>
+                    <a href="photo.html">ФОТО</a>
+                    <a href="kontakty.html">КОНТАКТЫ</a>
+                </div>
+                <div class="mobile-menu-icon">☰</div>
+            </nav>
+        </header>
+        <main>
+            <div class="content-wrapper">
+                <img class="main__img-float" src="img/006.jpg" alt="Бабочка">
+                <div class="text-content">
+                    <h1 class="company-title">КАК <span class="white">СВЯЗАТЬСЯ</span></h1>
+                    <p class="description">
+                        Бабочки — это не только прекрасные создания природы, но и важные участники экологического баланса.
+                        Они опыляют растения, способствуя их размножению. Являются важным элементом экосистемы, служа пищей для птиц, рептилий и других животных.У некоторых видов бабочек, например, у монархов, отмечаются миграции на тысячи километров.
+                        Бабочки не могут слышать, но чувствуют вибрации.
+                    </p>
+                <h2>Контакты</h2>
+                <p>
+                    Хотите узнать больше о мире бабочек? Свяжитесь с нами:
+                </p>
+                <ul>
+                    <li><strong>Телефон:</strong> +7 (771) 592-85-56</li>
+                    <li><strong>Email:</strong> makhambetaligulbakyt18@gmail.com</li>
+                    <li><strong>Адрес:</strong> ул. Ниеткалиева, д. 12, р. Казахстан, г. Кызылорда</li>
+                </ul>
+                <p class="quote">
+                    "Бабочки — это живые цветы, которые порхают в саду природы."
+                </p>
+              </div>
+            </div>
+        </main>
+        <footer>
+            <div class="footer-content">
+                <div class="copyright">&copy; Гульбакыт Махамбетали</div>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuIcon = document.querySelector('.mobile-menu-icon');
+            const navLinks = document.querySelector('.nav-links');
+    
+            mobileMenuIcon.addEventListener('click', function() {
+                navLinks.classList.toggle('active');
+            });
+        });
+    </script>
+</body>
+</html>
